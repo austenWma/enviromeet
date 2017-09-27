@@ -1,0 +1,12 @@
+#navbar {
+  width: 100%;
+  background-color: darkgray;
+  position: fixed;
+}
+a {
+  text-decoration: none;
+}
+#home-container {
+  background-image: url('../assets/earth.jpg');
+  background-repeat: no-repeat;
+}
