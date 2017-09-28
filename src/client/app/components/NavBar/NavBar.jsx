@@ -5,12 +5,12 @@ import { Nav, NavItem, Button } from 'react-bootstrap'
 class NavBar extends Component {
   render () {
     return (
-      <Nav bsStyle="pills" id='navbar'>
-        <Button><Link to='/'>home</Link></Button>
-        <Button><Link to='/fundme'>Fund Me</Link></Button>
-        <Button><Link to='/meet'>Meet Ups</Link></Button>
-        <Button><Link to='/news'>News</Link></Button>
-      </Nav>
+      <div className='navbar navbar-toggleable-md navbar-light bg-faded ' style={{fontSize:'14px'}}>
+        <Link to='/' className="nav-item nav-link">Home</Link>
+        <Link to='/news' className="nav-item nav-link">News</Link>
+        <Link to='/fundme' className="nav-item nav-link">Fund Me</Link>
+        <Link to='/meet' className="nav-item nav-link">Meet Ups</Link>
+      </div>
     );
   }
 }
