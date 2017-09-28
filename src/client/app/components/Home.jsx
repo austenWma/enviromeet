@@ -7,7 +7,8 @@ class Home extends Component {
     return (
       <div id='home-container'>
         <NavBar />
-      
+        Welcome to Enviromeet! <br/>
+        A place where all environmentalists can meet
       </div>
     );
   }
